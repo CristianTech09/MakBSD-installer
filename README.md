@@ -48,26 +48,11 @@ The layout can be changed later at any point.
 ## Untested
 - My hardware selection is limited. Only current nVidia drivers and AMDGPU are tested. If you have older hardware and/or intel graphics, please let me know if/how it works.
 
-## Differences to previous version
-- renamed to FreeBSDesktop
-- built and distributed as self-contained package - but *makeself* is bugged, better use TAR
-- redesigned file structure (no more 1 single monster script)
-- supports multiple desktop environments (Mate and Cinnamon for now)
-- dialog-only, no more pure CLI override
-- nvidia 470 added
-- new cinnamon desktop
-- new icons
-- new CLI app selection (FAMP and Emacs for now)
+## Differences to original script
 
-## Release log
-- 2023-03-10: completely refactured, modular design; Cinnamon; CLI apps; distribution scripts
-- 2021-04-22: options for SLiM and LightDM, fix for user name (pw add -c)
-- 2021-03-10: bug fixes, Mint-Y dark themes, new features: keyboard layout/variant selection, dialog, amd, intel, switch to FreeBSD 13.0-rc1
-- 2020-05-02: refactoring, printf, new feature: tmpfs directory
-- 2020-03-27: DarkMate 12.1 release, switch to FreeBSD 12.1
-- 2019-03-29: first DarkMate release, switch to FreeBSD 12
-- 2018-01-11: added -x -u parameters, fixes for KDE/VLC, new network check, Xorg installed by default, echo -y removed, added freebsd-update
-- 2018-01-02: Initial release for FreeBSD 10/11
+I added the possibility to install other desktop environments: kde plasma & xfce, and obviously I also added the installation of sddm among the login managers
+
+(for now I am without customizations, in the future I will change the DE customization)
 
 ## Credits
 - dialog by Thomas E. Dickey https://invisible-island.net/dialog/
