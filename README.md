@@ -1,5 +1,7 @@
-# FreeBSDesktop
-Desktop install script system for FreeBSD
+# MakBSD installer Script
+a Desktop install script system for FreeBSD and derivates
+
+This is a fork of this repository: https://github.com/broozar/installDesktopFreeBSD
 
 ## About
 This script will transform a standard installation of FreeBSD into a desktop system by bootstrapping PKG, adding Xorg, a desktop environment with theming, some optional desktop software, a login manager, and set up users.
@@ -15,11 +17,6 @@ $ tar zxf fbsdesk
 $ sh main.sh
 ```
 4. Follow the instructions on screen. If you made a mistake, use CTRL+C to abort, then simply run the script again.
-
-### Installation tutorials on YouTube
-You can find a step-by-step guide on YouTube which covers creating a FreeBSD installation image, installing the OS, and installing FreeBSDesktop: #TODO
-
-You can find the old tutorial for DarkMate 13 here: https://youtu.be/1jIoSwwz2ak
 
 ## Keyboard Shortcuts
 - SUPER+left, SUPER+right: tile windows left/right
